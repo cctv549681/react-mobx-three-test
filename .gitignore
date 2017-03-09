@@ -1,0 +1,20 @@
+.idea/modules.xml
+.idea/unionv2.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/
+node_modules/
+test/
+temp/
+build/
+.vscode/settings.json
+.vscode/
+Would skip repository service/xinyunlian-app-juhe/xinyunlian-app-juhe
+Would skip repository service/xinyunlian-app-juhe/xinyunlian-soa-impl
+service/
+#src/components/back/
+#src/pages/about/
+#src/pages/feed/
+#src/pages/user/
+.fusebox/
+npm-debug.log.1077739417
