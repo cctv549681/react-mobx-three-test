@@ -1,49 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="externals/css/weui/weui.min.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
-<div id="app"></div>
-<script src="externals/libs/es5-shim.min.js"></script>
-<script src="externals/libs/es5-sham.min.js"></script>
-<script src="externals/libs/json3.min.js"></script>
-<script src="externals/libs/es6-shim.min.js"></script>
-<script src="externals/libs/es6-sham.min.js"></script>
-<script src="externals/libs/html5.min.js"></script>
+    <canvas id="app"></canvas>
 
-<script>
-    var GLOBAL = {
-        static: "http://192.168.100.122:8100/unionv2/",
-        baseApiUrl: "api",
-        appName: 'juhe-app',
-        loginApi: "login?platform=pcweb&",
-        logoutApi: "logout",
-        imgPath: "",
-        isLogin: "true",
-        platform: "pcweb",
-        "_csrf": "7e98276f-7faf-4d7e-8894-d50f82a63b01",
-        userInfo: {
-            "username": "330101105606",
-            "authorities": [],
-            "accountNonExpired": true,
-            "accountNonLocked": true,
-            "credentialsNonExpired": true,
-            "enabled": true,
-            "areaId": 928,
-            "streetId": null,
-            "name": "金荣飞",
-            "shopName": "杭州市上城区甘露食品店",
-            "id": 1
-        }
-    };
-</script>
 
-<script src="build/App.js"></script>
+    <script src="build/App.js"></script>
 </body>
+
 </html>

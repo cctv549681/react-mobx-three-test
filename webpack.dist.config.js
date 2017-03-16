@@ -11,12 +11,12 @@ module.exports = {
         // filename: 'App.js',
     },
     resolve: {
-        // alias: {
-        //     'react': 'preact-compat/dist/preact-compat.min',
-        //     'react-dom': 'preact-compat/dist/preact-compat.min'
-        //     // 'react': 'react-lite',
-        //     // 'react-dom': 'react-lite'
-        // },
+        alias: {
+            'react': 'preact-compat/dist/preact-compat.min',
+            'react-dom': 'preact-compat/dist/preact-compat.min'
+                // 'react': 'react-lite',
+                // 'react-dom': 'react-lite'
+        },
         extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
     },
     module: {
